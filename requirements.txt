@@ -1,0 +1,6 @@
+streamlit
+tavily-python
+python-dotenv
+fpdf2
+python-docx
+google-generativeai
