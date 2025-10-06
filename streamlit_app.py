@@ -16,7 +16,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 client = TavilyClient(TAVILY_API_KEY)
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-flash-latest")
 
 # st.set_page_config(page_title="Deep Research Assistant", layout="wide")
 # st.title("Deep Research Assistant")
